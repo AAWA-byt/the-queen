@@ -1,22 +1,16 @@
-import logo from './logo.svg';
+import the_queen from './the-queen-young.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+      <h1>Queen Elisabeth II.</h1>
+          <h3>1926 - 2022</h3>
+          <p></p>
+        <img src={the_queen} className="App-logo" alt="logo" />
+        
       </header>
     </div>
   );

@@ -3,15 +3,15 @@
 }
 
 .App-header {
-  background-color: #000000;
+  background-color: #e7e0e0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  font-size: calc(50px + 2vmin);
+  font-family: 'Qwigley', Helvetica, Sans-serif;  color: #fff;
+	color: #333;}
 
 .App-header img {
   pointer-events: none;
@@ -22,15 +22,36 @@
 @media screen and (max-width: 800px) {
   .App-header img {
     width: 350px;
-    height: 400px;
+    height: 440px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .App-header img {
     width: 250px;
-    height: 300px;
+    height: 340px;
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0px;
+  padding: 0;
+  margin-top: 0px;
+  
+}
 
+p {
+  margin-top: 0px;
+  padding: 0;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-size: calc(2px + 2vmin);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p-top {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}

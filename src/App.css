@@ -10,6 +10,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(50px + 2vmin);
+  /*
+  Google Fonts: https://fonts.google.com/
+  http://fonts.googleapis.com/css?family=Qwigley
+  */
   font-family: 'Qwigley', Helvetica, Sans-serif;  color: #fff;
 	color: #333;}
 

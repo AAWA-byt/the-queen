@@ -1,5 +1,6 @@
 /* latin */
 /* http://fonts.googleapis.com/css?family=Qwigley */
+/* Import local Google Font in /public/fonts/ */
 @font-face {
   font-family: 'Qwigley';
   font-style: normal;
@@ -11,6 +12,9 @@
 .App {
   text-align: center;
 }
+
+
+/* App-Header */
 
 .App-header {
   background-color: #e7e0e0;
@@ -24,6 +28,9 @@
   font-family: 'Qwigley', Helvetica, Sans-serif;  color: #fff;
 	color: #333;
 }
+
+
+/* Image of the The Queen */
 
 .App-header img {
   pointer-events: none;
@@ -44,6 +51,9 @@
     height: 340px;
   }
 }
+
+
+/* Fonts: e.g. font-size,.. */
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0px;
@@ -66,4 +76,42 @@ p {
   margin-bottom: 0px;
   padding-top: 20px;
   padding-bottom: 0px;
+}
+
+
+/* Copyright Image */
+
+.copyright {
+  text-align: justify;
+  width: 450px;
+}
+
+.copyright img {
+  display: block;
+  margin: 0 auto;
+}
+
+.copyright p {
+  text-align: center;
+  font-size: 10px;
+  color: gray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .copyright {
+    width: 350px;
+  }
+  .copyright p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .copyright {
+    width: 250px;
+  }
+  .copyright p {
+    font-size: 8px;
+  }
 }

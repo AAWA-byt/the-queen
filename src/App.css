@@ -25,7 +25,7 @@
   justify-content: center;
   font-size: calc(50px + 2vmin);
   /* Google Fonts: https://fonts.google.com/ */
-  font-family: 'Qwigley', Helvetica, Sans-serif;  color: #fff;
+  font-family: 'Qwigley', Helvetica, Sans-serif;  
 	color: #333;
 }
 
@@ -113,5 +113,65 @@ p {
   }
   .copyright p {
     font-size: 8px;
+  }
+}
+
+
+/* App page 2 */
+
+.App2-header {
+  background-color: #330c0c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(28px + 2vmin);
+	color: rgb(216, 216, 216);
+}
+
+.App2-header img {
+  pointer-events: none;
+  margin-bottom: 100px;
+
+}
+
+.App2-header__text {
+  text-align: center;
+  width: 500px;
+  color: #fff;
+}
+
+.App2-header__text p {
+  font-size: calc(7px + 2vmin);
+  text-align: center;
+}
+
+.App2-header__quote {
+  width: 500px;
+  text-align: center;
+}
+
+.App2-header__quote p {
+  margin-top: 30px;
+  color: #fff;
+  font-size: calc(1.9px + 2vmin);
+}
+
+@media screen and (max-width: 800px) {
+  .App2-header__text, .App2-header__quote {
+    width: 350px;
+  }
+  .App2-header img {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App2-header__text, .App2-header__quote {
+    width: 250px;
+  }
+  .App2-header img {
+    margin-bottom: 30px;
   }
 }

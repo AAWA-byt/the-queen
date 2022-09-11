@@ -16,8 +16,8 @@ function App() {
       </header>
 
       <div className="App2-header">
-        <div className='App2-header__text'>
           <center><img src={the_palace} alt="the-palace" /></center>
+          <div className='App2-header__text'>
           <p><i>"The Queen died peacefully at Balmoral this afternoon. The King and Queen Consort will remain at Balmoral this 
                 evening and will return to London tomorrow."</i></p>
             <div className='App2-header__quote'>
